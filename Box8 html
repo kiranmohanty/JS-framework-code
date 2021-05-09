@@ -1,0 +1,708 @@
+ <html>
+<header>
+<style>
+ .imgSmall{
+    height: 8%;
+    width: 61%;
+ }
+.imgLarge{
+    height: 81%;
+    width: 100%;
+    padding-left: 0%;
+ }
+.margin-top-20px{
+    margin-top:20px;
+ }
+ .padding-left-5px{
+    padding-left:5px;
+ }
+ .padding-left-15px{
+    padding-left:15px;
+ }
+ .home1{
+    height: 8%;
+    border: none;
+    margin-left: 96%;    
+    margin-top: -70%;
+	width:100%;
+ }
+  .home2{
+    height: 8%;
+    border: none;
+    margin-left: 108%;
+    width: 85%;
+	margin-top: -9%;	
+ }
+
+ .locateMe1{    
+    height: 8%;    
+    margin-left: 179%;    
+    margin-top: -70%;    
+    background-color: #da3939;
+ }
+  .locateMe2{
+    height: 8%;    
+    margin-left: 174%;    
+    margin-top: -10%;    
+    background-color: #da3939;
+	cursor:pointer;
+ }
+ .sign-up{
+    border: 1px solid #e13636!important;
+    padding: 5px 10px;
+    background: #fff;
+    font-size: 12px;
+    color: #e13636;   
+ }
+ .autocomplatePopup{
+    height: auto;
+	width:10px;
+	background-color:white;
+    border: none;
+    margin-left: 61%;
+    width: 70%;	
+	margin-top:-60%;
+ }
+.input-2{       
+    border: none;
+	padding: 2px 2px 0 5px;
+    border-radius: 3px;
+	background: #da3939;
+	color: #fff;
+	float: left;
+	text-align: center;
+    font-size: 10px;	
+	height:37%;
+	width: 100%;
+    margin-top:57%;	
+}
+.div-location{
+    border: none;
+    background: white;
+    margin-top: -70%;
+    margin-left: 96%;
+    height: 7%;
+    width: 12%;
+}
+.divMain{    
+    border: none;
+    margin-left: -33%;
+    width: 100%;
+    margin-top: 7%;    
+    background-color: white;
+}
+.shift_right{
+     float:right;
+}
+ input:focus{
+    outline: none;
+}
+ a:hover{
+    outline: none;
+    text-decoration: none !important;
+	color: black;	
+}
+category-horiezontal:hover{
+    outline: none;
+}
+.text-center{
+    text-align: center;
+}
+.menuImage{    
+    padding: 0;
+	height: 42%;
+    width:100%;	
+}
+.cursor-pointer{
+   cursor:pointer;
+}
+.shadow-box{
+    box-shadow: 6px 6px 10px #888;
+}
+.menuText{
+    margin-top: -19%;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #fff;
+	text-transform: uppercase;
+}
+.margin-top-13px{
+     margin-top:13px;
+}
+.white-smoke{
+    background-color: whitesmoke;
+}
+.locationInfoHeader{
+   background-color:black;
+   color: #fff;
+   height:37px;
+}
+.white-text{
+   color:#fff;
+   padding-top:10px;
+   font:120%;
+}
+.padding-top-10px{
+    padding-top:10px;
+}
+.btn-as-text{
+    cursor: pointer;
+    background-color:black;
+	color: #fff;
+	border:0px;
+}
+.horizontal-scroller {
+    position: relative;
+    height: 65px;
+    background: #fff;
+    border-bottom: 1pX solid #E2E2E2;
+}
+.category-scrollbar {
+    overflow: hidden;
+    line-height: 64px;
+    text-align: center;
+}
+.menu-scroll {
+    display: inline-block;
+    text-align: center;
+}
+.menu-scroll-horiezontal {
+    display: inline-block;
+    padding-left: 25px; 
+    padding-right: 25px; 
+    text-align: center;
+}
+.category-horiezontal{
+    cursor: pointer;    
+	color: black;
+	border:0px;
+}
+.category-horiezontal:active{
+    text-decoration:none;
+	font-weight:500;
+}
+
+.left-arrow ,.right-arrow{
+     color: #da3939;
+	 cursor:pointer;
+}
+.vertical-right-divider{
+     border-right:1px solid #333;
+}
+.vertical-left-divider{
+    border-left:1px solid #333;
+}
+i{
+    cursor:pointer;
+}
+.padding{
+   padding-left:4px;
+   padding-right:4px;
+   padding-bottom:4px;
+   padding-top:4px;
+
+}
+.margin-bottom-30px{
+   margin-bottom:30px !important;
+}
+.veg{
+      background: url(https://box8.in/styles/../images/veg.62b68100.png) no-repeat;
+}
+.non-veg{
+   background: url(https://box8.in/styles/../images/non-veg.e60edd55.png) no-repeat;
+}
+.veg,.non-veg{
+    position: relative;
+    right: -89%;
+    top: -8%;
+    width: 11%;
+    height: 8%;
+}
+.headerFont{
+   font-size:18px;
+   font-weight:500;
+}
+.opacity-font{
+   font-size:22px;
+   font-weight:500;
+   font:bold;
+}
+.cartFont
+   font-size:12px;
+   font-weight:500;
+   font:bold;
+}
+.padding-left-zero{
+    padding-left:0px;
+}
+.padding-bottom-10px{
+     padding-bottom:10px;
+	 padding-top:10px;
+}
+.padding-right-5px{
+     padding-right: 5px;
+}
+.orange-color{
+    color:#da3939;
+}
+.active{
+   font-weight:500; 
+   background-color: #da3939;   
+}
+.height-3{
+   height: 10px;
+}
+.side-card{
+    position: fixed;
+    top: 0;
+    right: 0;    
+    background: #fff;
+    border-left: 1px solid #e8ebe9;
+    z-index: 999;
+	height: 95%;
+	margin-top:2%;
+}
+.open-side-card{
+    animation: sidecart-slide-in .5s;
+    right: 0;
+}
+.text{
+   text-transform:uppercase; 
+   font-size:18px;
+   padding-left:10%;
+}
+.text-content{
+    color: #da3939;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 20%;
+    height: auto;
+    margin-left: 35%;
+    opacity: .9;
+}
+.padding-zero{
+   padding:0px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</header>
+<body ng-app="Box8App">
+<div class="margin-top-20px" ng-controller="LocateMeController" style="width:100%;">
+     <div class="container-fluid" > 
+	 <!-- <div class="col-md-5"> -->
+	   <!-- <div class="col-md-4 padding-left-zero"> -->
+	   <div class="navbar-header ">
+	   <img class="imgSmall " src="https://box8.in/images/logo.6d41ab8b.png" onclick="return false;"/>
+	   </div>
+	   <ul class="navbar-nav navbar-right padding-right-5px">
+	     <li class="menu-scroll"><a class="btn" href="#">Home</a></li>
+		 <li class="menu-scroll"><a  class="btn" href="#">About Us</a></li>
+		 <li class="menu-scroll"><a  class="btn" href="#">We'r Hiring</a></li>
+		 <li class="menu-scroll"><a class="btn padding-left-5px" href="#">Offers</a></li>
+		 <li class="menu-scroll"><a  class="btn" href="#">Sign In</a></li>
+		 <li class="menu-scroll"><a  class="btn sign-up" href="#">Sign Up</a></li>
+		</ul>
+	   <!-- </div> -->
+	  <!-- </div> -->
+    <!-- <div class="col-md-7">	 -->
+       <!-- <div class="col-md-6"></div>	 -->
+	   <!-- <div class="col-md-1"><a class="btn" href="#">Home</a></div> -->
+	   <!-- <div class="col-md-1"><a  class="btn" href="#">About Us</a></div> -->
+	   <!-- <div class="col-md-1"><a  class="btn" href="#">We'r Hiring</a></div> -->
+	   <!-- <div class="col-md-1"><a class="btn padding-left-5px" href="#">Offers</a></div> -->
+	   <!-- <div class="col-md-1"><a  class="btn" href="#">Sign In</a></div> -->
+	   <!-- <div class="col-md-1"><a  class="btn sign-up" href="#">Sign Up</a></div> -->
+	 <!-- </div> -->
+     </div>
+	 
+	 
+	 <div class="padding-left-zero" ng-show="ShowLocationSearchDiv" style="width:100%;">
+	  <img class="imgLarge" src="https://box8.in/images/banner/B8-FINAL-WEB-BANNER.d975a91b.jpg" href="X"/>
+	 <div style="padding-top:7%" class="col-md-6">
+	 
+	 <div class="col-md-12 divMain" > 
+	 <div class="div-location" ng-show="ParentLocation.length>0">
+	 <span  class="input-2">{{ParentLocation}}
+	      <a href="" ng-click="RemoveSelection()"><img src="https://box8.in/images/close.47cfd871.png" alt="" class="shift_right"></a>
+	 </span>
+	 </div>
+	 <input type="text"  id="txtLocation"  ng-model="SearchedLocation" ng-class="ParentLocation.length>0 ?  'home2 col-md-8' : 'home1 col-md-10'"  placeholder="{{LocateMePlaceHolder}}" ng-change="LocateDeliveryLocation()" />
+	 <button id="btnLocateMe" class="btn btn-red col-md-2" ng-disabled="DisableSearch" ng-class="ParentLocation.length>0 ? 'locateMe2':'locateMe1'" ng-click="DisplayMenuList()" >Locate Me</button>	
+	  </div> 
+	<div class="col-md-12" ng-show="ShowLocationList">
+        <ul class="autocomplatePopup list-group" ng-model="selectedLocationID">
+		   <li class="list-group-item" ng-repeat="item in GetAvailableLocations() | filter:{name:SearchedLocation} | orderBy : 'name'" ng-bind="item.name" ng-click="SelectLocation(item.ID,item.name,item.Type,item.ParentID)"></li>           
+		   </ul>	
+	</div>
+     </div>	 
+	 </div>
+
+
+   <div class="col-md-12 white-smoke" ng-show="ShowMenuList" >
+         <span class="col-md-12 text-center" menu-List-Header></span> 
+		 <div class="col-md-1"></div>
+		 <div class="col-md-10">
+		    
+			    <div  class="col-md-4 margin-top-13px" ng-repeat="category in CategoryList">
+				   <img ng-src="{{category.Image}}" alt="{{category.CategoryName}}" class="menuImage shadow-box cursor-pointer margin-bottom-30px" ng-click="ShowItems(category.CategoryID)"></img>
+				   <div ng-bind="category.CategoryName" class="menuText"></div>
+				</div>
+			
+		 </div>
+		 <div class="col-md-1"></div>
+   </div>
+
+   <div class="col-md-12" ng-show="ShowItemList">
+        <div class="col-md-12 locationInfoHeader">
+		   
+		   <div class="col-md-4">
+		      <div class="col-md-1 padding-top-10px">
+		         <img ng-src="https://box8.in/styles/../images/location-white.1a89a293.svg"></img>
+		      </div>
+		      <span class="col-md-6 white-text" ng-bind="CompleteLocationPath"></span>
+			  <div class="col-md-5 white-text">
+			    <input type="button" class="btn-as-text" ng-click="ChangeLocation()" value="EDIT"></input>
+			   </div>
+		   </div>
+		</div>
+		<div class="col-md-12 horizontal-scroller category-scrollbar">
+		<div class="col-md-1 col-sm1-1 vertical-right-divider margin-top-20px"><i class="glyphicon glyphicon-chevron-left orange-color" ng-click="SelectPrevCategory()"> </i></div>
+		<div class="col-md-10 col-sm-10 ">
+		  <ul>
+		    <li class="menu-scroll-horiezontal" ng-repeat="category in CategoryList" ng-class="category.CategoryID==SelectedCategory?'active':''" >
+			   
+			   <a ng-bind="category.CategoryName" class="category-horiezontal" ng-click="ShowItems(category.CategoryID)" >			   
+			   </a>
+			  
+			</li>
+		  </ul>
+		</div>
+		<div class="col-md-1 col-sm-1 vertical-left-divider margin-top-20px"><i class="glyphicon glyphicon-chevron-right orange-color" ng-click="SelectNextCategory()" > </i></div>
+		</div>
+		<div class="white-smoke" ng-class="showSideCart>0 ?'col-md-10 col-sm-10':'col-md-12 col-sm12'">
+		    
+			<div class="col-md-12 col-m-12">
+			    <div class="col-md-4 col-m-4 margin-top-20px padding " ng-repeat="item in ShowAvailableMenuList()">
+				<div class="shadow-box">
+				   <img ng-src="{{item.ItemImage}}" alt="{{item.MenuName}}" class="menuImage" ng-style="GetQuantityInBasket(item.ItemID).Quantity>0 ? {'opacity':'0.3'}:{'opacity':'1'}" ></img>
+				   <span class="text-content" ng-if="GetQuantityInBasket(item.ItemID).Quantity>0"  ><span class="opacity-font" ng-bind="GetQuantityInBasket(item.ItemID).Quantity"></span> </span>
+				   <div  class="row padding-left-15px margin-top-13px">
+				      <strong> <span ng-bind="item.MenuName" class="col-md-12 col-sm-12 headerFont"></span></strong>
+					  <div ng-class="item.ItemType==0? 'veg padding-right-5px':'non-veg padding-right-5px'"></div>
+					  <span class="col-md-12 col-sm-12 height-3" ng-bind="item.MenuDescription | cut: 32:'..'" data-toggle="tooltip" title="{{item.MenuDescription}}"></span>
+					  <div class="col-md-12 col-sm-12 padding-bottom-10px">
+					     <div class="pull-left">
+					     <span  ng-bind="item.Price | currency : '₹' : 0" ></span>
+						 </div>
+						 <div class="pull-right padding-right-5px" ng-show="ShowAddButtoon(item.ItemID)">
+						 <button class="btn btn-primary" ng-click="AddItemToBasket(item.ItemID,item.MenuName,item.Price,item.ItemType)"  >+ADD</button>
+						 </div>
+						 <div class="pull-right padding-right-5px" ng-show="!ShowAddButtoon(item.ItemID)" >
+						    <input type="button" value="-" ng-click="ReduceQuantity(item.ItemID)"/>
+							<span ng-bind="GetQuantityInBasket(item.ItemID).Quantity" ></span>
+							<input type="button" value="+" ng-click="IncreaseQuantity(item.ItemID)" />
+						 </div>
+						 
+					  </div>
+				   </div>
+				  </div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="side-card col-md-2 open-side-card" ng-show="showSideCart" >
+		  <div class="row">
+		     
+			     <span class="text">Your cart</span>
+			 
+			    <img ng-src="https://box8.in/images/close.47cfd871.png" alt="" ng-click="CloseSideCard()" style="cursor: pointer"></img>
+			 
+		  </div>
+		  <hr>
+		  <div class="row"  style="padding-left:10%; height:55%; overflow-y:auto;overflow-x:hidden;">
+		  <div ng-repeat="item in ItemsInBasket" style="padding-top:10%;">
+			<span style="width:70%;" class="cartFont" ng-bind="item.MenuName"></span>
+			 <div ng-class="item.Type==0? 'veg padding-right-5px':'non-veg padding-right-5px'" style="width:10%;"></div>
+			 <span  ng-bind="(item.UnitPrice * item.Quantity) | currency : '₹' : 0" style="width:20%;" ></span>
+			 <div class="row pull-right" ng-show="item.Quantity>0" style="margin-right: 2%;">
+			    <input type="button" value="-" ng-click="ReduceQuantity(item.ItemID)"/>
+				<span ng-bind="GetQuantityInBasket(item.ItemID).Quantity" ></span>
+				<input type="button" value="+" ng-click="IncreaseQuantity(item.ItemID)" />
+			 </div>
+			 <hr>
+		</div>
+		  </div>
+		  <hr>
+		  <div class="row">
+		    <span class="col-md-7 col-sm-7 headerFont">Subtotal</span>
+			<span class="col-md-5 col-sm-5 headerFont" ng-bind="GetTotalCardPrice()"></span>
+		  </div>
+		</div>
+   </div>   
+</div>
+</body>
+<script type="text/javascript">
+    var app=angular.module("Box8App",['ngAnimate']);
+	app.controller("LocateMeController",['$scope','$filter','ArrayService',function($scope,$filter,ArrayService){
+	
+	//Properties
+	$scope.LocateMePlaceHolder="Delivery Location eg.Bangalore";
+	$scope.DisableSearch=true;
+	$scope.FilteredLocationList=[];
+	$scope.ShowLocationList=false;
+	$scope.ShowLocationSearchDiv=true;
+	$scope.ShowMenuList=false;
+	$scope.ShowItemList=false;
+	$scope.ParentLocation="";
+	$scope.CompleteLocationPath="";
+	$scope.LocationID=0;
+	$scope.SelectedCategory=0;
+	$scope.ItemsInBasket=[];
+	$scope.showSideCart=false;
+	$scope.LocationList=[
+	          {ID:1,name:"Bangalore",Type:"Main",ParentID:0},
+			  {ID:2,name:"Chennai",Type:"Main",ParentID:0},
+			  {ID:3,name:"BTM",Type:"SubLocation",ParentID:1},
+			  {ID:4,name:"Marathahali",Type:"SubLocation",ParentID:1},
+			  {ID:5,name:"Koramangala",Type:"SubLocation",ParentID:1},
+			  {ID:6,name:"Banasankari",Type:"SubLocation",ParentID:1},
+			  {ID:7,name:"Axa Building",Type:"DelivLocation",ParentID:3},
+			  {ID:8,name:"Udupi Garden",Type:"DelivLocation",ParentID:3},
+			  {ID:9,name:"Water Tank",Type:"DelivLocation",ParentID:3},
+			  {ID:10,name:"Marathahali Bridge",Type:"DelivLocation",ParentID:4},
+			  {ID:11,name:"Kundanahali Gate",Type:"DelivLocation",ParentID:4},
+			  {ID:12,name:"Sony World",Type:"DelivLocation",ParentID:5},
+			  {ID:14,name:"NGV",Type:"DelivLocation",ParentID:5},
+			  {ID:15,name:"Forum",Type:"DelivLocation",ParentID:5},
+			  {ID:15,name:"Banasankari Deport",Type:"DelivLocation",ParentID:6}
+			  ];
+    $scope.CategoryList=[
+	           {CategoryID:1, CategoryName: "All-In-1-Meal", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/406/original/1110-X-810.jpg?1468821535"},
+			   {CategoryID:2, CategoryName: "100% Natural Ice creams", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/698/original/vegan-mixed-berry.jpg?1463149241"},
+			   {CategoryID:3, CategoryName: "Staples Box", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/761/original/Paneer-Makhni-Meal.jpg?1463990830"},
+			   {CategoryID:4, CategoryName: "Biryani", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/401/original/1110-X-810.jpg?1447237189"},
+			   {CategoryID:5, CategoryName: "Wraps", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/402/original/1480-X-1080.jpg?1447237389"},
+			   {CategoryID:6, CategoryName: "Sandwitches", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/403/original/1110-X-810.jpg?1447237540"},
+			   {CategoryID:7, CategoryName: "Salads", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/475/original/Farmer's-Market-Salad.jpg?1449813576"},
+			   {CategoryID:8, CategoryName: "A La Carte", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/404/original/1110-X-810.jpg?1450536795"},
+			   {CategoryID:9, CategoryName: "Drinks & Desserts", Image:"http://assets.box8.co.in/picture_resolutions/photos/000/000/407/original/1110-X-810.jpg?1453964426"}
+	];
+	$scope.Category_Items_List=[
+	           {ItemID :1,CategoryID :1,ItemType :0,MenuName :"Dal Makhni Meal",MenuDescription :"The best Dal makhni in town + Additional Chole/ Dal Makhni on the side + Salad/Chutney + Dessert",Price :128,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/610/original/1110-X-810.jpg?1468823971"  }, //ItemType:0- veg, 1- non-veg
+			   {ItemID :2,CategoryID :1,ItemType :0,MenuName :"Chole Tikki Meal",MenuDescription :"Delhi style Chole with Grilled veg patty on the side + Dal Makhni/Chole + Salad/Chutney + Dessert",Price :148,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/618/original/1110-X-810.jpg?1468823867"},
+			   {ItemID :3,CategoryID :1,ItemType :0,MenuName :"Spicy Paneer Meal",MenuDescription :"Melt-in-your-mouth paneer cubes with spicy curry + Dal Makhni/Chole + Salad/Chutney + Dessert",Price :158,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/617/original/1110-X-810.jpg?1468824632"},
+			   {ItemID :4,CategoryID :1,ItemType :1,MenuName :"Chicken Masala Meal",MenuDescription :"Lucknowi style Chicken with home style chicken curry + Dal Makhni/Chole + Salad/Chutney + Dessert",Price :178,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/640/original/1110-X-810.jpg?1468823352"},
+			   {ItemID :5,CategoryID :2,ItemType :0,MenuName :"Madagascar Chocolate [500 mL Family Pack]",MenuDescription :"Deliciously smooth, gooey, dark sinned and made from premium Chocolate. Best chocolate treat ever!",Price :288,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/692/original/1110-X-810-Ice-Cream.jpg?1476281424"},
+			   {ItemID :6,CategoryID :2,ItemType :0,MenuName :"Mixed Berries [500 mL Family Pack]",MenuDescription :"Delight yourself with delicious berry blast - Californian cranberry,  Blueberry and Strawberry",Price :288,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/691/original/1110-X-810-Ice-Cream.jpg?1476281859"},
+			   {ItemID :7,CategoryID :2,ItemType :0,MenuName :"Kesar Pista [500 mL Family Pack]",MenuDescription :"Treat yourself with rich flavours of high quality Roasted Pistas, pure Kesar and double cream milk",Price :248,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/674/original/1110-X-810-Ice-Cream.jpg?1476281271"},
+			   {ItemID :8,CategoryID :3,ItemType :1,MenuName :"Chicken Tikka over Rice",MenuDescription :"Chicken Tikka pieces cooked in a home style Curry. Enjoy with Rice, Salad, Mint Chutney and Garlic Yogurt.",Price :148,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/762/original/Chicken-Masala-Meal.jpg?1463990888"},
+			   {ItemID :9,CategoryID :3,ItemType :0,MenuName :"Paneer Masala over Rice",MenuDescription :"Melt in the mouth Paneer cubes with Salad, Mint Chutney and Garlic Yogurt over rice and Masala Curry.",Price :148,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/763/original/Spicy-Paneer-Meal.jpg?1463990913"},
+			   {ItemID :10,CategoryID :3,ItemType :0,MenuName :"Dal Makhni Chawal",MenuDescription :"The best Dal Makhni in town, Topped with Salad, Hari Chutney and a dash of fresh Garlic Yogurt. Life is sorted.",Price :108,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/765/original/Dal-Makhni-Meal.jpg?1463990943"},
+			   {ItemID :11,CategoryID :4,ItemType :0,MenuName :"Firangi Subz Biryani",MenuDescription :"Baby corn, mushroom & paneer. A burst of flavours",Price :158,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/408/original/Firangi-Subz-Biryani.jpg?1447238329"},
+			   {ItemID :12,CategoryID :4,ItemType :0,MenuName :"Shahi Paneer Biryani",MenuDescription :"Loads of tender marinated paneer cubes",Price :198,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/409/original/Shahi-Paneer-Biryani.jpg?1447238404"},
+			   {ItemID :13,CategoryID :4,ItemType :1,MenuName :"Murg Dum Biryani",MenuDescription :"The quintessential classic boneless chicken biryani",Price :208,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/410/original/Murg-Dum-Biryani.jpg?1447238710"},
+			   {ItemID :14,CategoryID :5,ItemType :0,MenuName :"Veg Tandoori Mix Wrap",MenuDescription :"Baby Corn, mushrooms, olives, jalapenos in a smoky sauce",Price :118,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/444/original/Veg-Tandoori-Mix-Wrap.jpg?1447241317"},
+			   {ItemID :15,CategoryID :5,ItemType :1,MenuName :"Seekh Kebab Wrap",MenuDescription :"Chicken kebabs roasted with a spicy sauce",Price :98,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/448/original/Seekh-Kebab-Wrap.jpg?1447241583"},
+			   {ItemID :16,CategoryID :5,ItemType :1,MenuName :"Chicken Tikka Wrap",MenuDescription :"Chicken kebab in a spicy tikka masala ",Price :138,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/451/original/Chicken-Tikka-Wrap.jpg?1447241774"},
+			   {ItemID :17,CategoryID :6,ItemType :1,MenuName :"Chicken Seekh Kebab Sandwich",MenuDescription :"Juicy spicy kebabs in a delicious tikka sauce",Price :108,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/424/original/Chicken-Seekh-Kebab-Sandwich.jpg?1447239743"},
+			   {ItemID :18,CategoryID :6,ItemType :1,MenuName :"Tandoori Chicken Sandwich ",MenuDescription :"The greatest chicken sandwich ever made. Seriously!",Price :148,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/426/original/Tandoori-Chicken-Sandwich.jpg?1447239873"},
+			   {ItemID :19,CategoryID :6,ItemType :0,MenuName :"Veggie Delight Sandwich",MenuDescription :"Loads of veggies with olives & jalapenos",Price :98,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/413/original/Veggie-Delight-Sandwich.jpg?1447238965"},
+			   {ItemID :20,CategoryID :7,ItemType :0,MenuName :"Farmer's Market Salad",MenuDescription :"Mushrooms, baby corn, olives, jalapenos with salad dressing",Price :138,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/476/original/1110-X-810-Ice-Cream.jpg?1481639134"},
+			   {ItemID :21,CategoryID :7,ItemType :1,MenuName :"Char-Grilled Chicken Salad",MenuDescription :"Tandoor grilled chicken & exotic veggies in a spiced desi dressing",Price :168,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/478/original/1110-X-810-Ice-Cream.jpg?1481638830"},
+			   {ItemID :22,CategoryID :7,ItemType :0,MenuName :"Paneer Tossed Salad",MenuDescription :"Paneer, olives, jalapenos, veggies in an Indian style dressing",Price :178,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/477/original/1110-X-810-Ice-Cream.jpg?1481639453"},
+			   {ItemID :23,CategoryID :8,ItemType :0,MenuName :"Tawa Paratha [Pack of 2]",MenuDescription :"",Price :38,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/496/original/Tawa-Paratha.jpg?1448015912"},
+			   {ItemID :24,CategoryID :8,ItemType :0,MenuName :"Subz Handi Curry",MenuDescription :"Exotic mix veg in mughlai style gravy",Price :188,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/456/original/Subz-Handi-Curry.jpg?1447242249"},
+			   {ItemID :25,CategoryID :8,ItemType :1,MenuName :"Chicken Mughlai Curry",MenuDescription :"Delicious fusion of tandoori chicken & our signature spicy gravy",Price :238,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/462/original/Chicken-Mughlai-Curry.jpg?1447242614"},
+			   {ItemID :24,CategoryID :9,ItemType :0,MenuName :"Gulab Jamun",MenuDescription :"",Price :58,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/474/original/Gulab-Jamun.jpg?1447243895"},
+			   {ItemID :24,CategoryID :9,ItemType :0,MenuName :"Coke",MenuDescription :"Coke",Price :60,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/469/original/Aerated-Beverages.jpg?1447243460"},
+			   {ItemID :24,CategoryID :9,ItemType :0,MenuName :"Choco Lava Cake",MenuDescription :"",Price :58,ItemImage :"http://assets.box8.co.in/picture_resolutions/photos/000/000/602/original/Choco-Lava-Cake.jpg?1456988321"}
+	];
+	
+	//Functions
+	$scope.GetAvailableLocations=function(){
+	     $scope.FilteredLocationList.length=0;
+	      if($scope.selectedLocationID !=undefined && $scope.selectedLocationID>0){
+		        for ( var i=0; i< $scope.LocationList.length; i++)
+		             {
+					   if($scope.LocationList[i].ParentID==$scope.selectedLocationID)
+					   {
+					       $scope.FilteredLocationList.push($scope.LocationList[i]);
+					   }
+		             }	
+                return $scope.FilteredLocationList;					 
+	        }
+			else{
+			    return $scope.LocationList;
+			}			
+	}
+     $scope.LocateDeliveryLocation=function(){
+	         $scope.DisableSearch=true;			 
+			 $scope.LocateMePlaceHolder=($scope.ParentLocation!=undefined && $scope.ParentLocation.length>0)?"Where in "+$scope.ParentLocation : "Delivery Location eg.Bangalore";
+	     if($scope.SearchedLocation != undefined && $scope.SearchedLocation.length > 0){
+		     $scope.ShowLocationList = true;
+	      }
+		  else{
+		     $scope.ShowLocationList = false;
+		  }
+	    }
+	 $scope.SelectLocation=function(id,text,type,parentID){
+	       $scope.selectedLocationID=id;
+		   $scope.SearchedLocation="";
+		   $scope.ShowLocationList=false;
+		   $scope.LocationID=0;
+		   if(type=="DelivLocation"){
+		      $scope.DisableSearch=false;
+			  $scope.LocateMePlaceHolder="";
+			  $scope.ParentLocation="";
+			  $scope.SearchedLocation=text;
+			  $scope.selectedLocationID=0;
+			  $scope.LocationID=id;
+		   }
+		   else{
+		      $scope.ParentLocation=text;
+		      $scope.LocateMePlaceHolder ="Where in " + text;
+		   }	       
+	    }
+	 $scope.RemoveSelection=function(){
+	         $scope.selectedLocationID=0;
+			 $scope.LocationID=0;
+		     $scope.SearchedLocation="";
+			 $scope.LocateMePlaceHolder="Delivery Location eg.Bangalore";
+			 $scope.ShowLocationList=false;
+			 $scope.ParentLocation="";
+	    }
+	 $scope.DisplayMenuList=function(){
+	       $scope.ShowLocationSearchDiv=false;
+	       $scope.ShowMenuList=true;
+		   $scope.ShowItemList=false;
+	   }
+	 $scope.ShowItems=function(categoryID){
+	        $scope.ShowLocationSearchDiv=false;
+	        $scope.ShowMenuList=false;
+			$scope.ShowItemList=true;
+			$scope.CompleteLocationPath=$scope.ShowDeliveryLocationPath();
+			$scope.SelectedCategory=categoryID;
+	    }
+	 $scope.ShowDeliveryLocationPath=function(){
+	        var finalLocationName="";
+	        var childLocation= $filter("filter")($scope.LocationList,{ID: $scope.LocationID});
+			if(childLocation !=undefined && childLocation != null  && childLocation.length > 0){
+			    finalLocationName += childLocation[0].name ;
+				while(childLocation[0].ParentID!=0)
+				{
+				    childLocation= $filter("filter")($scope.LocationList,{ID: childLocation[0].ParentID});
+					if(childLocation !=undefined && childLocation != null  && childLocation.length > 0){
+					finalLocationName += ", "+childLocation[0].name ;
+					}
+				}
+			}
+			return finalLocationName;
+	    }
+	$scope.ChangeLocation=function(){
+	         
+	    }
+	$scope.SelectPrevCategory=function(){
+	    }
+	$scope.SelectNextCategory=function(){
+	    }
+	$scope.ShowAvailableMenuList=function(){
+	      return $filter('filter')($scope.Category_Items_List,{CategoryID: $scope.SelectedCategory});
+	   }
+	$scope.AddItemToBasket=function(itemID,itemName,price, itemType){
+	      $scope.ItemsInBasket.push({ItemID :itemID,MenuName :itemName, Quantity: 1, UnitPrice: price, Type:itemType});
+		  $scope.showSideCart=true;
+	   }
+	$scope.CloseSideCard=function(){
+	      $scope.showSideCart=false;
+	   }
+	$scope.ShowAddButtoon=function(itemID){	       
+		   if($filter('filter')($scope.ItemsInBasket,{ItemID: itemID}).length>0){
+		      return false;
+		   }
+		   else{
+		      return true;
+		   }
+	   }
+	 $scope.ReduceQuantity=function(itemID){
+	       var itemObject=$filter('filter')($scope.ItemsInBasket,{ItemID:itemID});
+	      if(itemObject.length>0 && itemObject[0].Quantity>0)
+		  {
+		     $filter('filter')($scope.ItemsInBasket,{ItemID:itemID})[0].Quantity -=1;
+			 if(itemObject[0].Quantity==0){
+			    ArrayService.DeleteItemFromArray($scope.ItemsInBasket,itemObject[0]);
+			 }
+		  }
+	   }
+	 $scope.IncreaseQuantity=function(itemID){
+	      var itemObject=$filter('filter')($scope.ItemsInBasket,{ItemID:itemID});
+	      if(itemObject.length>0)
+		  {
+		     $filter('filter')($scope.ItemsInBasket,{ItemID:itemID})[0].Quantity +=1;
+		  }
+	   }
+	 $scope.GetQuantityInBasket=function(itemID){
+	      var itemObject=$filter('filter')($scope.ItemsInBasket,{ItemID:itemID});
+	      if(itemObject.length>0)
+		  {
+		    return $filter('filter')($scope.ItemsInBasket,{ItemID:itemID})[0];
+		  }
+		  else{
+		    return {ItemID :0,MenuName :'', Quantity: 0,UnitPrice:0,Type:''};
+		  }
+	   }
+	  $scope.GetTotalCardPrice=function(){
+	       return ArrayService.CalucatePrice($scope.ItemsInBasket);
+	   }
+	}]);
+	
+	//Registering directive - return object
+	app.directive("menuListHeader",function(){
+	   return{
+	        restrict: 'A',
+	        template:"<h3>What would you like to eat today ?</h3>"
+	       }
+	});
+	//Filter - returns a function
+	app.filter('cut',function(){
+	  return function(value,maxLength,trailingString){
+	       if(!value) 
+		      return '';
+		   if(value.length<maxLength)
+		      return value;
+			else{
+			   var trailingStringLength=0;
+			   if(trailingString)
+			        trailingStringLength=trailingString.length;
+			  value= value.substr(0,maxLength-trailingStringLength);
+			  return value+trailingString;
+	        }
+		return '';
+		}
+	});
+	
+	//Service - return object (with properties and/or functions)
+	app.factory('ArrayService',function(){
+	    return {
+		   DeleteItemFromArray: function(arrayObject,itemObject){
+		         var index=arrayObject.indexOf(itemObject);
+				 if(index>=0){
+				    arrayObject.splice(index,1);
+				 }
+				 //return arrayObject;
+		    },
+			CalucatePrice:function(arrayObject){
+			    var total=0;
+				angular.forEach(arrayObject,function(value,key){
+				   total +=(value.Quantity* value.UnitPrice);
+				});
+				return total;
+			}
+		}
+	});
+</script>
+</html>  
